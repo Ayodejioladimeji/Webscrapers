@@ -93,7 +93,7 @@ export default function Home() {
           type="text"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          placeholder="Enter URL to scrape (e.g., https://nigeriapropertycentre.com/for-rent)"
+          placeholder="Enter URL to scrape"
           className="border border-gray-300 rounded-lg px-4 py-2 flex-grow focus:ring-blue-500 focus:border-blue-500"
         />
         <div className="flex flex-col sm:flex-row gap-3">
